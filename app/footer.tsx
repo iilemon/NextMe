@@ -10,11 +10,10 @@ export default function Footer() {
           >
             Next.js
           </a>
-		  &{' '}
-		  <a href={'https://github.com/hamster1963/NextMe'}>NextMe</a>
         </p>
         <section className="mt-1 flex items-center gap-2 text-[13px] font-light tracking-tight text-neutral-600/50 dark:text-neutral-300/50">
-          © 2025-{new Date().getFullYear()}{' '}@Sean
+          © 2021-{new Date().getFullYear()}{' '}
+          <a href={'https://github.com/hamster1963'}>@Hamster1963</a>
         </section>
       </section>
     </footer>

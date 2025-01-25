@@ -2,14 +2,6 @@
 
 import { motion } from 'framer-motion'
 import WorkCard from './work-card'
-import homedash from 'public/work/home-new.webp'
-import boce from 'public/work/boce.webp'
-import order from 'public/work/order.webp'
-import music from 'public/work/music.webp'
-import poc from 'public/work/poc.webp'
-import it from 'public/work/it.webp'
-import letter from 'public/work/letter.webp'
-import chat from 'public/work/chat.webp'
 
 const container = {
   hidden: { opacity: 1 },

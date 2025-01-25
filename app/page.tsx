@@ -31,7 +31,7 @@ export default async function Page() {
         <p className={'mb-6 pt-10 text-lg font-medium tracking-tight'}>
           👋 大家好, 我是 Sean.
           <br />
-		  {'     '}网站目前正在修改中.
+		  网站目前正在修建中...
           <br />
           感谢@Hamster1963带佬的开源！
           <br />

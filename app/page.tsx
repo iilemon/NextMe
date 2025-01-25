@@ -50,7 +50,7 @@ export default async function Page() {
           </Link>
           <span className="mr-2 h-2 w-2 rounded-full bg-blue-500"></span>
           <Link
-            href={'https://ilemon.cc'}
+            href={'https://n.ilemon.cc'}
             target="_blank"
             className="text-xs font-medium"
           >

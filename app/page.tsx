@@ -29,11 +29,11 @@ export default async function Page() {
           This is a Demo.
         </p>
         <p className={'mb-6 pt-10 text-lg font-medium tracking-tight'}>
-          👋 Hi, I'm Sean.
+          👋 大家好, 我是 Sean.
           <br />
-          Love to write code and write articles.
+          目前正在修改中.
           <br />
-          I will share some tech related things and my ideas here.
+          感谢@Hamster1963带佬的开源！
           <br />
         </p>
         <NowPlayingInit />
@@ -58,11 +58,11 @@ export default async function Page() {
           </Link>
           <p className="mx-1 text-xs font-medium">/</p>
           <Link
-            href={'https://changelog.buycoffee.top'}
+            href={'https://gitea@workonline.one'}
             target="_blank"
             className="text-xs font-medium"
           >
-            Changelog
+            Gitea
           </Link>
         </div>
       </section>

@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import avatar from 'app/avatar.webp'
-import desktop from 'public/main/desktop.webp'
-import cloth from 'public/main/cloth.webp'
-import shoe from 'public/main/shoe.webp'
-import home from 'public/main/home.webp'
+import photo1 from 'public/main/photo1.webp'
+import photo2 from 'public/main/photo2.webp'
+import photo3 from 'public/main/photo3.webp'
+import photo4 from 'public/main/photo4.webp'
 import Link from 'next/link'
 import { GitHubIcon } from './components/Icon'
 import NowPlayingInit from './components/now-playing'
@@ -31,7 +31,7 @@ export default async function Page() {
         <p className={'mb-6 pt-10 text-lg font-medium tracking-tight'}>
           👋 大家好, 我是 Sean.
           <br />
-		  网站目前正在修建中...
+		  网站目前正在修建中....
           <br />
           感谢@Hamster1963带佬的开源！
           <br />
@@ -54,7 +54,15 @@ export default async function Page() {
             target="_blank"
             className="text-xs font-medium"
           >
-            Nezha
+            Nezha@Self
+          </Link>
+		  <p className="mx-1 text-xs font-medium">/</p>
+          <Link
+            href={'https://nz.zhebiggg.com'}
+            target="_blank"
+            className="text-xs font-medium"
+          >
+            Nezha@🐢🐢
           </Link>
           <p className="mx-1 text-xs font-medium">/</p>
           <Link
@@ -64,14 +72,6 @@ export default async function Page() {
           >
             Gitea
           </Link>
-          <p className="mx-1 text-xs font-medium">/</p>
-          <Link
-            href={'https://nz.zhebiggg.com'}
-            target="_blank"
-            className="text-xs font-medium"
-          >
-            🐢🐢☁
-          </Link>
         </div>
       </section>
       <Photos />
@@ -80,10 +80,10 @@ export default async function Page() {
 }
 
 function Photos() {
-  const photo_1 = desktop
-  const photo_2 = shoe
-  const photo_3 = cloth
-  const photo_4 = home
+  const photo_1 = photo1
+  const photo_2 = photo2
+  const photo_3 = photo3
+  const photo_4 = photo4
   return (
     <section
       className={

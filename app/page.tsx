@@ -13,7 +13,7 @@ export default async function Page() {
     <section>
       <section className="sm:px-28 sm:pt-8">
         <Image
-          alt={'Hamster1963'}
+          alt={'Sean'}
           src={avatar}
           height={64}
           width={64}
@@ -29,7 +29,7 @@ export default async function Page() {
           Developer, guitarist, and creator.
         </p>
         <p className={'mb-6 pt-10 text-lg font-medium tracking-tight'}>
-          👋 Hi, I'm Hamster1963.
+          👋 Hi, I'm Sean.
           <br />
           Love to write code and write articles.
           <br />
@@ -38,7 +38,7 @@ export default async function Page() {
         </p>
         <NowPlayingInit />
         <div className={'mt-6 flex items-center'}>
-          <Link href="https://github.com/hamster1963" target="_blank">
+          <Link href="https://github.com/iilemon" target="_blank">
             <button
               className={
                 'mr-4 flex items-center justify-center rounded-xl border-[0.5px] border-neutral-200 p-2 text-xs font-medium shadow-[0_2px_2px_rgba(0,0,0,0.04)] transition-all duration-300 hover:bg-stone-100 hover:shadow-none dark:border-neutral-700 dark:bg-neutral-700/20 dark:hover:bg-neutral-900/20'
@@ -50,7 +50,7 @@ export default async function Page() {
           </Link>
           <span className="mr-2 h-2 w-2 rounded-full bg-blue-500"></span>
           <Link
-            href={'https://home.buycoffee.top'}
+            href={'https://ilemon.cc'}
             target="_blank"
             className="text-xs font-medium"
           >

@@ -23,10 +23,10 @@ export default async function Page() {
           priority
         />
         <h1 className="mb-1 text-xl font-medium tracking-tighter">
-          Hamster1963
+          Sean
         </h1>
         <p className="prose prose-neutral text-sm dark:prose-invert">
-          Developer, guitarist, and creator.
+          This is a Demo.
         </p>
         <p className={'mb-6 pt-10 text-lg font-medium tracking-tight'}>
           👋 Hi, I'm Sean.

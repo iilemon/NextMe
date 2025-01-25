@@ -5,7 +5,18 @@ import { SkeletonBase } from '../components/skeleton-base'
 
 export default function GuestbookEntries() {
   const entries = [
-
+    {
+      id: 1,
+      body: 'This is a Demo.',
+      created_by: 'Sean',
+      created_at: '2025-01-25 22:04:07',
+      updated_at: '2025-01-25 22:04:07',
+      is_reply: 1,
+      reply_to: 0,
+      slug: 'guestbook',
+      is_banner: 2,
+      banner_url: '',
+    },
   ]
 
   if (!entries || entries.length === 0) {

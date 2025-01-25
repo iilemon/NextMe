@@ -64,7 +64,6 @@ export default async function Page() {
           >
             Gitea
           </Link>
-          </Link>
           <p className="mx-1 text-xs font-medium">/</p>
           <Link
             href={'https://nz.zhebiggg.com'}

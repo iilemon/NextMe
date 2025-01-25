@@ -7,7 +7,6 @@ import boce from 'public/work/boce.webp'
 import order from 'public/work/order.webp'
 import music from 'public/work/music.webp'
 import poc from 'public/work/poc.webp'
-import it from 'public/work/it.webp'
 import letter from 'public/work/letter.webp'
 import chat from 'public/work/chat.webp'
 
@@ -42,7 +41,6 @@ export default function Page() {
         <p className="prose prose-neutral mb-6 text-sm dark:prose-invert">
           Some projects that might be interesting.
         </p>
-		{/*
         < motion.div variants={container} initial="hidden" animate="visible">
           <motion.div variants={item}>
             <WorkCard
@@ -102,15 +100,6 @@ export default function Page() {
                 link={'/work/music'}
               />
             </motion.div>
-            <motion.div variants={item}>
-              <WorkCard
-                title={'KES-IT'}
-                description={'Network monitoring.'}
-                image={it}
-                link={'/work/it'}
-              />
-            </motion.div>
-			*/}
           </motion.section>
         </motion.div>
       </section>

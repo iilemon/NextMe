@@ -58,7 +58,7 @@ export default async function Page() {
           </Link>
           <p className="mx-1 text-xs font-medium">/</p>
           <Link
-            href={'https://gitea@workonline.one'}
+            href={'https://gitea.workonline.one'}
             target="_blank"
             className="text-xs font-medium"
           >

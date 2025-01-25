@@ -42,7 +42,7 @@ export default function Page() {
         <p className="prose prose-neutral mb-6 text-sm dark:prose-invert">
           Some projects that might be interesting.
         </p>
-        </* motion.div variants={container} initial="hidden" animate="visible">
+        {/* < motion.div variants={container} initial="hidden" animate="visible">
           <motion.div variants={item}>
             <WorkCard
               title={'HomeDash'}
@@ -107,8 +107,8 @@ export default function Page() {
                 description={'Network monitoring.'}
                 image={it}
                 link={'/work/it'}
-              />
-            </motion.div */>
+              /> */}
+            </motion.div>
           </motion.section>
         </motion.div>
       </section>

@@ -50,11 +50,11 @@ export default async function Page() {
           </Link>
           <span className="mr-2 h-2 w-2 rounded-full bg-blue-500"></span>
           <Link
-            href={'https://n.ilemon.cc'}
+            href={'https://nz.zhebig.me'}
             target="_blank"
             className="text-xs font-medium"
           >
-            Monitor
+            Nezha
           </Link>
           <p className="mx-1 text-xs font-medium">/</p>
           <Link
@@ -63,6 +63,15 @@ export default async function Page() {
             className="text-xs font-medium"
           >
             Gitea
+          </Link>
+          </Link>
+          <p className="mx-1 text-xs font-medium">/</p>
+          <Link
+            href={'https://nz.zhebiggg.com'}
+            target="_blank"
+            className="text-xs font-medium"
+          >
+            🐢🐢☁
           </Link>
         </div>
       </section>
